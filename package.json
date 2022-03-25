@@ -6,7 +6,8 @@
   "scripts": {
     "start": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --fix --ext .ts"
   },
   "repository": {
     "type": "git",
